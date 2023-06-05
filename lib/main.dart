@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 //Screens
-import './home_page.dart';
+import 'screens/home_page.dart';
 
 //Provider
-import './shoes_provider.dart';
+import 'providers/shoes_provider.dart';
 
 void main() {
   runApp(const MyApp());
