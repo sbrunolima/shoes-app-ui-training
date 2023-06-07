@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 
 //Screens
 import 'screens/home_page.dart';
+import './screens/start_screen.dart';
 
 //Provider
 import 'providers/shoes_provider.dart';
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primaryColor: Colors.white,
         ),
-        home: MyHomePage(),
+        home: StartScreen(),
       ),
     );
   }

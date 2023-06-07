@@ -40,6 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ],
       ),
       body: GridView.builder(
+        padding: const EdgeInsets.symmetric(horizontal: 15),
         itemCount: shoes.length,
         itemBuilder: (context, index) {
           return GestureDetector(
@@ -51,69 +52,74 @@ class _MyHomePageState extends State<MyHomePage> {
               ));
             },
             child: Card(
-              child: SizedBox(
-                height: 300,
-                child: Column(
-                  children: [
-                    SizedBox(
-                      height: 180,
-                      width: MediaQuery.of(context).size.width,
-                      child: Image.network(shoes[index].shoeImageUrl.toString(),
-                          fit: BoxFit.cover),
-                    ),
-                    Container(
-                      height: 100,
-                      padding: const EdgeInsets.all(10),
-                      color: Colors.white,
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            shoes[index].shoeName.toString(),
-                            maxLines: 1,
-                            overflow: TextOverflow.ellipsis,
-                            style: const TextStyle(
-                              fontWeight: FontWeight.w700,
-                              fontSize: 16,
-                            ),
-                          ),
-                          const SizedBox(height: 10),
-                          Row(
-                            children: [
-                              const Text(
-                                'Reviews',
-                                style: TextStyle(
-                                  color: Colors.grey,
-                                  fontWeight: FontWeight.w500,
-                                ),
-                              ),
-                              const SizedBox(width: 6),
-                              for (int i = 0; i < 4; i++)
-                                const Icon(
-                                  Icons.star_outlined,
-                                  color: Colors.yellow,
-                                  size: 14,
-                                ),
-                              const Icon(
-                                Icons.star_outlined,
-                                color: Colors.grey,
-                                size: 14,
-                              ),
-                            ],
-                          ),
-                          const SizedBox(height: 15),
-                          Text(
-                            '\$${shoes[index].price.toString()}',
-                            style: const TextStyle(
-                              fontWeight: FontWeight.w600,
-                              fontSize: 16,
-                            ),
-                          ),
-                        ],
+              child: Column(
+                children: [
+                  SizedBox(
+                    height: 140,
+                    width: MediaQuery.of(context).size.width,
+                    child: ClipRRect(
+                      borderRadius: const BorderRadius.only(
+                        topLeft: Radius.circular(4),
+                        topRight: Radius.circular(4),
+                      ),
+                      child: Image.network(
+                        shoes[index].shoeImageUrl.toString(),
+                        fit: BoxFit.cover,
                       ),
                     ),
-                  ],
-                ),
+                  ),
+                  Container(
+                    height: 100,
+                    padding: const EdgeInsets.all(10),
+                    color: Colors.white,
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          shoes[index].shoeName.toString(),
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                          style: const TextStyle(
+                            fontWeight: FontWeight.w700,
+                            fontSize: 16,
+                          ),
+                        ),
+                        const SizedBox(height: 10),
+                        Row(
+                          children: [
+                            const Text(
+                              'Reviews',
+                              style: TextStyle(
+                                color: Colors.grey,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                            const SizedBox(width: 6),
+                            for (int i = 0; i < 4; i++)
+                              const Icon(
+                                Icons.star_outlined,
+                                color: Colors.yellow,
+                                size: 14,
+                              ),
+                            const Icon(
+                              Icons.star_outlined,
+                              color: Colors.grey,
+                              size: 14,
+                            ),
+                          ],
+                        ),
+                        const SizedBox(height: 15),
+                        Text(
+                          '\$${shoes[index].price.toString()}',
+                          style: const TextStyle(
+                            fontWeight: FontWeight.w600,
+                            fontSize: 16,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
               ),
             ),
           );
@@ -122,7 +128,7 @@ class _MyHomePageState extends State<MyHomePage> {
           maxCrossAxisExtent: 200,
           crossAxisSpacing: 0,
           mainAxisSpacing: 10,
-          mainAxisExtent: 300,
+          mainAxisExtent: 260,
         ),
       ),
     );
