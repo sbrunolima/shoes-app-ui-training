@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 
+//Objects
 import '../objects/shoe.dart';
+
+//Widgets
+import '../widgets/my_back_icon.dart';
 
 class DescriptionScreen extends StatefulWidget {
   final Shoe shoe;
@@ -32,15 +36,7 @@ class _DescriptionScreenState extends State<DescriptionScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        leading: Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: CircleAvatar(
-            backgroundColor: Colors.tealAccent[700],
-            child: const BackButton(
-              color: Colors.white,
-            ),
-          ),
-        ),
+        leading: MyBackIcon(),
         title: const Text(
           'Details',
           style: TextStyle(
@@ -321,7 +317,7 @@ class _DescriptionScreenState extends State<DescriptionScreen> {
                   width: mediaQuery.width,
                   child: OutlinedButton(
                     style: OutlinedButton.styleFrom(
-                      backgroundColor: Colors.tealAccent[700],
+                      backgroundColor: Colors.teal.shade300,
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(10),
                       ),

@@ -71,7 +71,7 @@ class _StartScreenState extends State<StartScreen> {
                   NavigationDestination(
                     selectedIcon: Icon(
                       Icons.home_filled,
-                      color: Colors.tealAccent[700],
+                      color: Colors.teal.shade300,
                     ),
                     icon: const Icon(
                       Icons.home_filled,
@@ -82,7 +82,7 @@ class _StartScreenState extends State<StartScreen> {
                   NavigationDestination(
                     selectedIcon: Icon(
                       Icons.menu_open_rounded,
-                      color: Colors.tealAccent[700],
+                      color: Colors.teal.shade300,
                     ),
                     icon: const Icon(
                       Icons.menu,
@@ -93,7 +93,7 @@ class _StartScreenState extends State<StartScreen> {
                   NavigationDestination(
                     selectedIcon: Icon(
                       Icons.shopping_bag,
-                      color: Colors.tealAccent[700],
+                      color: Colors.teal.shade300,
                     ),
                     icon: const Icon(
                       Icons.shopping_bag_outlined,
@@ -104,7 +104,7 @@ class _StartScreenState extends State<StartScreen> {
                   NavigationDestination(
                     selectedIcon: Icon(
                       Icons.favorite,
-                      color: Colors.tealAccent[700],
+                      color: Colors.teal.shade300,
                     ),
                     icon: const Icon(
                       Icons.favorite_border_outlined,
@@ -115,7 +115,7 @@ class _StartScreenState extends State<StartScreen> {
                   NavigationDestination(
                     selectedIcon: Icon(
                       Icons.person_outline,
-                      color: Colors.tealAccent[700],
+                      color: Colors.teal.shade300,
                     ),
                     icon: const Icon(
                       Icons.person,
