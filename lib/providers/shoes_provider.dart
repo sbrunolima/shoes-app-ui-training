@@ -170,6 +170,108 @@ class ShoeProvider with ChangeNotifier {
         "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/27017eea-55f7-4cf2-8907-7de51fafb4c8/air-force-1-lv8-big-kids-shoes-5D3Vm7.png",
       ],
     ),
+    Shoe(
+      shoeName: "Nike Victori One",
+      shoeImageUrl:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/348937fe-e307-4523-a63b-aa7b451170f7/victori-one-mens-slides-l6rXGD.png",
+      price: "24.97",
+      description:
+          "From the beach to the bleachers, the Nike Victori One is a must-have slide for sunny days. Lightweight and easy to wear (or pack for your vacay), it's soft, responsive foam makes lounging easy.",
+      gallery: [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/348937fe-e307-4523-a63b-aa7b451170f7/victori-one-mens-slides-l6rXGD.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0abe8e81-902f-4520-8e7a-02ab354b1db7/victori-one-mens-slides-l6rXGD.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/907ea531-8fc7-459c-ac30-59a05b798883/victori-one-mens-slides-l6rXGD.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b6453c7d-e28c-4175-acea-bb85e1939a86/victori-one-mens-slides-l6rXGD.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b12c751c-a519-485d-8d7a-bda950e1a5f8/victori-one-mens-slides-l6rXGD.png",
+      ],
+    ),
+    Shoe(
+      shoeName: "Zion 2",
+      shoeImageUrl:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0b5fd6fe-7347-41a5-bab0-88c691179364/zion-2-mens-basketball-shoes-b3RVXd.png",
+      price: "84.97",
+      description:
+          "Channel your school spirit in colors that nod to Zion Williamson's iconic college basketball season. Then, take over the game in a shoe that supports your ability to quickly change direction and avoid defenders on the court.",
+      gallery: [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0b5fd6fe-7347-41a5-bab0-88c691179364/zion-2-mens-basketball-shoes-b3RVXd.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f1c135d7-d2b4-4b6b-b216-e9611795cdf1/zion-2-mens-basketball-shoes-b3RVXd.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/aef26c05-9f32-4725-845c-1532c10ad4a4/zion-2-mens-basketball-shoes-b3RVXd.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d6ed6c4e-4f36-4971-9512-56300c663b45/zion-2-mens-basketball-shoes-b3RVXd.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/35c0da2d-a12c-4864-a68a-fdb949764732/zion-2-mens-basketball-shoes-b3RVXd.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/88adfd8f-4ba6-453e-9037-555bc1e1393f/zion-2-mens-basketball-shoes-b3RVXd.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2f4d0aea-88c4-4ddf-adb0-8f6f7b212c55/zion-2-mens-basketball-shoes-b3RVXd.png",
+      ],
+    ),
+    Shoe(
+      shoeName: "Jordan Why Not .6",
+      shoeImageUrl:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0883a68c-e2d5-4771-a8bc-82ae210296c4/jordan-why-not-6-mens-shoes-T5Gl76.png",
+      price: "105.97",
+      description:
+          "Russell Westbrook's 6th signature shoe is—you guessed it—all about speed. To get you goin' as fast as possible, we've wrapped the rubber outsole nearly up to the midsole, so you're not gonna slip when you explode from 0 to 100. Added security comes from the interior bootie that keeps you strapped in as you jet across the court. It's all held together by an outer shroud and fastened with a zippered collar that spells out Russell's signature question: 'Why Not?'",
+      gallery: [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0883a68c-e2d5-4771-a8bc-82ae210296c4/jordan-why-not-6-mens-shoes-T5Gl76.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/84ed49f4-898a-4376-a66c-ccdb2abdad73/jordan-why-not-6-mens-shoes-T5Gl76.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e692886c-0a6e-4e4e-bd6e-4befc13af909/jordan-why-not-6-mens-shoes-T5Gl76.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e57ff455-6520-4793-9a24-4d4aaadd3964/jordan-why-not-6-mens-shoes-T5Gl76.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/81716a22-0edb-4c28-92d1-11707ed8c83c/jordan-why-not-6-mens-shoes-T5Gl76.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0471b3a1-28db-4d17-8960-b1aa3ec37dfb/jordan-why-not-6-mens-shoes-T5Gl76.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/82768881-54ff-42eb-a0cc-c3db69015c5c/jordan-why-not-6-mens-shoes-T5Gl76.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/09bdc560-40b8-4259-a7cf-ec5b058299d1/jordan-why-not-6-mens-shoes-T5Gl76.png",
+      ],
+    ),
+    Shoe(
+      shoeName: "Zoom Freak 4 (Team)",
+      shoeImageUrl:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/19f77495-835b-4f3d-9fbd-c986ab774ee8/zoom-freak-4-team-basketball-shoes-p95BnP.png",
+      price: "65.97",
+      description:
+          "Giannis is an incessant storm of stamina and skill that keeps coming at opponents for 4 quarters or more. The forward-thinking design of his latest signature shoe helps propel you down the court in a lightweight fit that moves with you. It can handle quick changes in direction on both sides of the floor, giving you side-to-side stability and multidirectional traction as you Euro step to the hoop.",
+      gallery: [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/19f77495-835b-4f3d-9fbd-c986ab774ee8/zoom-freak-4-team-basketball-shoes-p95BnP.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1ad25db6-3704-49fd-bb6d-39b4a00812d5/zoom-freak-4-team-basketball-shoes-p95BnP.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8b97b333-d7e4-45d3-a7e4-34f871aeec93/zoom-freak-4-team-basketball-shoes-p95BnP.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3cedd8c7-3a4d-48da-8cff-82a4518476dd/zoom-freak-4-team-basketball-shoes-p95BnP.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6023520a-36f2-41e2-bae1-4e7b208cef72/zoom-freak-4-team-basketball-shoes-p95BnP.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/393db3f9-92fc-4515-b60a-7f84b9cb469d/zoom-freak-4-team-basketball-shoes-p95BnP.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0ce7d690-7f7b-440b-8850-111c8ffbe708/zoom-freak-4-team-basketball-shoes-p95BnP.png",
+      ],
+    ),
+    Shoe(
+      shoeName: "Nike ISPA Sense Flyknit",
+      shoeImageUrl:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/19b764d4-df19-45d4-8308-412255d0d488/ispa-sense-flyknit-mens-shoes-dHZKmh.png",
+      price: "200",
+      description:
+          "Breathe in. Breathe out. The ISPA Sense is your ticket to tranquility. Mixing sustainable materials (it's made with at least 20% recycled content by weight) with meditative comfort, the design pulls inspiration from Zen gardens. The stretchy, bootie-like upper with an airy Flyknit design integrates venting and padding for extra on-foot bliss. Tie it all together with the sleek lacing system and then stay upright with added traction on the outsole. Do good, look good, and overcome the urban environment’s most challenging obstacles with this fresh design that gives new meaning to rest and relaxation.",
+      gallery: [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/19b764d4-df19-45d4-8308-412255d0d488/ispa-sense-flyknit-mens-shoes-dHZKmh.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/07eff064-dbe2-4a59-a91b-0945ae4733cd/ispa-sense-flyknit-mens-shoes-dHZKmh.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fc536aab-e38e-47d2-accb-b334183c7c62/ispa-sense-flyknit-mens-shoes-dHZKmh.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8244cb29-10e8-4907-8e33-454e438b3e05/ispa-sense-flyknit-mens-shoes-dHZKmh.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/95575725-6f33-406f-a9c0-314d2ff2071f/ispa-sense-flyknit-mens-shoes-dHZKmh.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/93ff3f85-d264-4d96-a482-108e78d82947/ispa-sense-flyknit-mens-shoes-dHZKmh.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3fa596b4-bb28-45a0-b932-82cf13029315/ispa-sense-flyknit-mens-shoes-dHZKmh.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d6a77181-7439-49a9-bc0d-65fc0c1357f0/ispa-sense-flyknit-mens-shoes-dHZKmh.png",
+      ],
+    ),
+    Shoe(
+      shoeName: "Air Jordan 8 Retro",
+      shoeImageUrl:
+          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/45ce4570-dc56-4e31-aa59-650a48dd98bf/air-jordan-8-retro-big-kids-shoes-63jvjP.png",
+      price: "150",
+      description:
+          "The kicks worn by MJ as he captured his 3rd career title are back, now in a fresh new colorway. Season-ready hues and patterns energize a classic silhouette, but don't worry—this edition of the AJ8 still has all the durable materials and Air cushioning you love.",
+      gallery: [
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/45ce4570-dc56-4e31-aa59-650a48dd98bf/air-jordan-8-retro-big-kids-shoes-63jvjP.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0ccbc44b-e655-4343-a86d-71fa55e91069/air-jordan-8-retro-big-kids-shoes-63jvjP.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/121bc695-43b5-43a4-a4ff-4260fd096d79/air-jordan-8-retro-big-kids-shoes-63jvjP.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/61f55db4-1864-4c90-90c6-6797b3a0cfd8/air-jordan-8-retro-big-kids-shoes-63jvjP.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fe6030c4-ef8d-4629-9135-1999563e6110/air-jordan-8-retro-big-kids-shoes-63jvjP.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8d6ac8a5-5633-4dcc-b101-5616aeea5f85/air-jordan-8-retro-big-kids-shoes-63jvjP.png",
+        "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/23b3a819-ca95-49b5-a93e-9ad259127d3b/air-jordan-8-retro-big-kids-shoes-63jvjP.png",
+      ],
+    ),
   ];
 
   List<Shoe> get shoes {

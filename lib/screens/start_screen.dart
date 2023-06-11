@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:enefty_icons/enefty_icons.dart';
 
 //Screens
 import '../screens/home_page.dart';
@@ -14,17 +15,19 @@ class _StartScreenState extends State<StartScreen> {
   //All screens
   final _screens = [
     MyHomePage(),
-    Scaffold(
-      body: Text('Categories'),
+    const Scaffold(
+      body: Center(
+        child: Text('Categories'),
+      ),
     ),
-    Scaffold(
-      body: Text('Wallet'),
+    const Scaffold(
+      body: Center(child: Text('Cart')),
     ),
-    Scaffold(
-      body: Text('Favorites'),
+    const Scaffold(
+      body: Center(child: Text('Favorites')),
     ),
-    Scaffold(
-      body: Text('Profile'),
+    const Scaffold(
+      body: Center(child: Text('Profile')),
     ),
   ];
 
@@ -61,7 +64,7 @@ class _StartScreenState extends State<StartScreen> {
               ),
               child: NavigationBar(
                 elevation: 0,
-                height: 50,
+                height: 60,
                 backgroundColor: Colors.white,
                 selectedIndex: _pageIndex,
                 onDestinationSelected: (index) => setState(() {
@@ -70,56 +73,66 @@ class _StartScreenState extends State<StartScreen> {
                 destinations: [
                   NavigationDestination(
                     selectedIcon: Icon(
-                      Icons.home_filled,
+                      EneftyIcons.home_2_bold,
                       color: Colors.teal.shade300,
+                      size: 30,
                     ),
                     icon: const Icon(
-                      Icons.home_filled,
-                      color: Colors.black,
+                      EneftyIcons.home_outline,
+                      color: Colors.grey,
+                      size: 30,
                     ),
                     label: '',
                   ),
                   NavigationDestination(
                     selectedIcon: Icon(
-                      Icons.menu_open_rounded,
+                      EneftyIcons.element_3_bold,
                       color: Colors.teal.shade300,
+                      size: 32,
                     ),
                     icon: const Icon(
-                      Icons.menu,
-                      color: Colors.black,
+                      EneftyIcons.element_3_outline,
+                      color: Colors.grey,
+                      size: 30,
                     ),
                     label: '',
                   ),
                   NavigationDestination(
                     selectedIcon: Icon(
-                      Icons.shopping_bag,
+                      EneftyIcons.shopping_bag_bold,
                       color: Colors.teal.shade300,
+                      size: 32,
                     ),
                     icon: const Icon(
-                      Icons.shopping_bag_outlined,
-                      color: Colors.black,
+                      EneftyIcons.shopping_bag_outline,
+                      color: Colors.grey,
+                      size: 30,
                     ),
                     label: '',
                   ),
                   NavigationDestination(
                     selectedIcon: Icon(
-                      Icons.favorite,
+                      EneftyIcons.heart_bold,
                       color: Colors.teal.shade300,
+                      size: 32,
                     ),
                     icon: const Icon(
-                      Icons.favorite_border_outlined,
-                      color: Colors.black,
+                      EneftyIcons.heart_outline,
+                      color: Colors.grey,
+                      size: 30,
                     ),
                     label: '',
                   ),
                   NavigationDestination(
                     selectedIcon: Icon(
-                      Icons.person_outline,
+                      EneftyIcons.profile_bold,
                       color: Colors.teal.shade300,
+                      size: 32,
                     ),
                     icon: const Icon(
-                      Icons.person,
-                      color: Colors.black,
+                      EneftyIcons.profile_outline,
+                      color: Colors.grey,
+                      size: 30,
                     ),
                     label: '',
                   ),
